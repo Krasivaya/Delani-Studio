@@ -36,7 +36,7 @@ body {
 	padding-bottom: 200px;
 	margin: auto;
 }
-.wh1{
+.wh1, .porth1, .portfolio, footer > p {
 	text-align: center;
 }
 .whatwedo_div {
@@ -48,4 +48,61 @@ body {
 .icon2_onhover,
 .icon3_onhover {
 	display: none;
+}
+.port_div1, .port_div2{
+	display: flex;
+	margin: 0px 150px 40px 150px;
+}
+.hover {
+	width: 90%;
+}
+.hover:hover{
+	opacity: 0.3;
+}
+.work:hover {
+	background-color: rgb(0, 0, 0);
+}
+.images p {
+	border: 5px solid rgb(0, 0, 0);
+	padding: 50px;
+	text-align: center;
+	visibility: hidden;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: -150px 30px 0px 30px;
+}
+.contact {
+	color: #fff;
+	background-image: url(../assets/backgrounds/a3.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 300px;
+	margin: auto;
+	padding: 50px 0px;
+}
+input {
+	margin: 10px;
+	width: 300px;
+	padding-left: 5px;
+	background-color: rgba(255, 255, 255, 0);
+	color: #fff;
+	border: 2px solid rgba(255, 255, 255, 0.404);
+}
+input::placeholder {
+	color: #fff;
+}
+textarea {
+	width: 620px;
+	height: 170px;
+	margin-left: 30px;
+	padding-left: 5px;
+	background-color: rgba(255, 255, 255, 0);
+	color: #fff;
+	border: 2px solid rgba(255, 255, 255, 0.404);
+	font-family: 'Roboto', sans-serif;
+}
+.footericons {
+	text-align: center;
+	margin: 50px;
 }
