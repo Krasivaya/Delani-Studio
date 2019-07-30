@@ -3,7 +3,7 @@
 ## Description
 
  We start each project by understanding your business goals, the user's need and the product requirements
- Then we help transalte them into effective and elegant solutions
+ Then we help transalte them into effective and elegant solutions.
 ## Setup Instructions
 
  You will need to clone the project and then run it
